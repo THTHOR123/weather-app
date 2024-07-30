@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.app {
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+input {
+  padding: 15px;
+  width: 80%;
+  max-width: 400px;
+  margin: 20px 0;
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.weather-info {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  margin-top: 20px;
+}
+
+.weather-info div {
+  margin: 10px 0;
+}
+
+.weather-info .temperature {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.weather-info .condition {
+  font-size: 24px;
+  font-style: italic;
+}
+
+.placeholder-message {
+  font-size: 20px;
+  margin-top: 20px;
+}
